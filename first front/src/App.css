@@ -1,0 +1,62 @@
+/** {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/*.container {*/
+/*  display: grid;*/
+/*  grid-template-columns: 0px auto;*/
+/*}*/
+
+/*.sidebar {*/
+/*  flex: 0 0 0px;*/
+/*}*/
+
+
+.App {
+  text-align: center;
+}
+
+/*.sidebar {*/
+/*  flex: 0 0 0px;*/
+/*}*/
+
+/*body {*/
+/*  margin-left: 15rem;*/
+/*}*/
+
+/*.list {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  gap: 1rem;*/
+/*  justify-content: center;*/
+/*  list-style-type: none;*/
+/*}*/
+
+/*.list li :hover {*/
+/*  background-color: #13b7d4; /* change this to your preferred color */*/
+/*  height: 30px;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.list a {*/
+/*  text-decoration: none;*/
+/*  color: var(--color-primary-400);*/
+/*}*/
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+

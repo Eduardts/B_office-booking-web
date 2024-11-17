@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 350px;
+}
+
+.seats {
+  background-color: rgb(200, 200, 200);
+  background-image: url('./europehousemap.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px 750px;
+  background-position: 135px 130px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.seat {
+    background-color: #056ffa;
+    height: 15px;
+    width: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+}
+
+.seat--reserved {
+    cursor: not-allowed;
+    background-color: #32b33f;
+}
+
+.seat-picker__row__number {
+    font-weight: normal;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: black;
+}
+
+.blank {
+    height: 15px;
+    width: 15px;
+}
+
+.seats > h3 {
+  flex: 1;
+  color: white;
+  margin-top: 20px; 
+}
+
+.seat-price {
+  margin-top: 20px;
+  display: flex;
+  background-color: rgb(83, 199, 235);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.seat-select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.seats-select {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.price {
+  font-size: 20px;
+}
+.totalprice {
+  margin-left: 50%;
+}
+.continue {
+  background-color: rgb(51, 99, 114);
+  margin-top: 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(63, 212, 63);
+/* m */
+}
+
+.sidebar {
+  flex: 0 0 0px;
+}
+.calendar-container {
+  width: 90%; /* adjust as needed */
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

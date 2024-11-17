@@ -1,0 +1,32 @@
+.final {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(226, 199, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showe {
+  background-color: rgb(192, 149, 158);
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img {
+  width: 100%;
+  height: 70%;
+}
+.select {
+  color: rgb(52, 109, 52);
+}
+.selected {
+  padding: 5px;
+  background-color: rgb(206, 169, 169);
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
